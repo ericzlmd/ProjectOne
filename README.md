@@ -1,12 +1,15 @@
+##
 # ProjectOne
 
 Flight Reservation Points System
 
+#
 
 ### Members
+#
  - Richard Dip
  - Adrien Yong
  - Brandon Lo
  - Darren Prong
  - Kogul Bala
- - Eric Zalameda
+ - Eric Zalameda ([@ericzlmd](https://github.com/ericzlmd))
