@@ -9,6 +9,6 @@ Flight Reservation Points System
  - Richard Dip([@richarddip28](https://github.com/richarddip28))
  - Adrien Yong
  - Brandon Lo
- - Darren Prong
+ - Darren Prong([@DarrenProng](https://github.com/DarrenProng))
  - Kogul Bala
  - Eric Zalameda([@ericzlmd](https://github.com/ericzlmd))
