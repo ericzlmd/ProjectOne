@@ -1,4 +1,5 @@
 # ProjectOne
+![ProjectOne Color Scheme](./images/scheme.png)
 Flight Reservation Points System
 
 #
@@ -37,6 +38,3 @@ Flight Reservation Points System
 `git fetch [branch name]`
 
 #  
-  
-### Project Color Scheme  
-![ProjectOne Color Scheme](./images/scheme.png)
