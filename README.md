@@ -36,4 +36,7 @@ Flight Reservation Points System
 ##### Fetching Updates from Remote  
 `git fetch [branch name]`
 
-#
+#  
+  
+### Project Color Scheme  
+![ProjectOne Color Scheme](./images/scheme.png)
