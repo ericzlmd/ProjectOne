@@ -11,7 +11,7 @@
    <!-- Main CSS | style.css -->
    <link rel="stylesheet" href="./css/style.css">
    <!-- Main JS | main.js -->
-   <!-- <script src="./js/main.js"></script> -->
+   <script src="./js/main.js"></script>
    <title>Charter | Flight Reservation Points System</title>
 </head>
 <body>
@@ -28,11 +28,13 @@
       <form action="" class="login-form" method="POST">
          <label for="email" class="form-lbl">Email:</label>
          <input type="email" name="email" class="form-item" id="email" placeholder="your@email.here">
+         <label for="email" class="error" id="lgn-email-error">This field is required!</label>
 
          <label for="password" class="form-lbl">Password:</label>
          <input type="password" name="password" class="form-item" id="password">
+         <label for="password" class="error" id="lgn-pass-error">This field is required!</label>
 
-         <a href="" class="btn-submit">Login</a>
+         <a href="" class="btn-submit" id="login-btn">Login</a>
       </form>
    </section>
 
