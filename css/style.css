@@ -59,6 +59,9 @@ header {
    box-shadow: -7px -3px rgba(0, 0, 0, 0.6);
 }
 
+footer {
+   background: #333333;
+}
 
 
 /* Webpage Components | form elements, buttons, etc. */
@@ -127,5 +130,5 @@ header {
 .hr-primary {
    max-width: 50px;
    border: 1px solid #f05f40;
-   margin: 20px auto;
+   margin: 75px auto;
 }
