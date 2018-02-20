@@ -5,33 +5,7 @@
    box-sizing: border-box;
 }
 
-/* index.html */
 
-/* navbar */
-.main-nav {
-   background-color: #333;
-   display: flex;
-   align-items: baseline;
-   box-shadow: 0 2px 3px rgba(0,0,0,0.4);
-}
-
-/* navbar links */
-.nav-link {
-   display: block;
-   color: #f2f2f2f2;
-   text-align: center;
-   padding: 10px 16px;
-   text-decoration: none;
-}
-
-.nav-brand {
-   font-size: 1.6em;
-   margin-right: auto;
-}
-
-.nav-item {
-   justify-content: flex-end;
-}
 
 body {
    font-family: "Open Sans";
@@ -89,18 +63,46 @@ header {
 
 /* Webpage Components | form elements, buttons, etc. */
 
+/* navbar */
+.main-nav {
+   background-color: #333333;
+   display: flex;
+   align-items: baseline;
+   box-shadow: 0 2px 3px rgba(0,0,0,0.4);
+}
+
+.nav-link {
+   display: block;
+   color: #f2f2f2f2;
+   text-align: center;
+   padding: 10px 16px;
+   text-decoration: none;
+}
+
+.nav-brand {
+   font-size: 1.6em;
+   margin-right: auto;
+}
+
+.nav-item {
+   justify-content: flex-end;
+}
+
+/* form */
+
 .login-form {
-   background: rgba(0, 0, 0, 0.2);
+   background: #1a3547;
    border-radius: 5px;
    display: flex;
    flex-direction: column;
-   margin: 5rem auto;
+   margin: 11rem auto;
    padding: 10px 2rem;
    width: 28%;
 }
 
 .form-lbl {
    font-size: 1.4em;
+   color: #f2f2f2f2;
 }
 
 .form-item {
@@ -111,12 +113,19 @@ header {
 }
 
 .btn-submit {
-   color: #3f3f3f;
+   color: #f2f2f2;
    padding: 5px 15px;
    text-decoration: none;
-   border: 1px solid black;
+   border: 1px solid #f2f2f2; 
    border-radius: 5px;
    font-size: 1.2em;
    align-self: center;
    margin-top: 1.2em;
+}
+
+/* custom horizontal line styling */
+.hr-primary {
+   max-width: 50px;
+   border: 1px solid #f05f40;
+   margin: 20px auto;
 }
