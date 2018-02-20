@@ -115,6 +115,27 @@ footer {
    margin: 0 auto;
 }
 
+.feedback-form {
+   background: #1a3547;
+   border-radius: 5px;
+   display: flex;
+   flex-direction: column;
+   margin: 11rem auto;
+   padding: 10px 1.6rem;
+   width: 40%;
+}
+
+.feedback-item {
+   height: 40px;
+   width: 250px;
+   font-size: 1.2em;
+}
+
+#fb-textarea {
+   font-size: 1.2em;
+   width: 100%;
+}
+
 .btn-submit {
    color: #f2f2f2;
    padding: 5px 15px;
