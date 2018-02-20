@@ -59,13 +59,32 @@ header {
    box-shadow: -7px -3px rgba(0, 0, 0, 0.6);
 }
 
+.members {
+   display: flex;
+   flex-wrap: wrap;
+   margin: 4em;
+   align-items: baseline;
+}
+
+.card {
+   text-decoration: none;
+   background: #1a3547;
+   margin: 15px 15px;
+   width: 30%;
+   padding: 11px;
+   list-style: none;
+} 
+.card h3 {
+   text-align: center;
+}
+
+
 footer {
    background: #333333;
 }
 
 
 /* Webpage Components | form elements, buttons, etc. */
-
 /* navbar */
 .main-nav {
    background-color: #333333;
@@ -152,4 +171,10 @@ footer {
    max-width: 50px;
    border: 1px solid #f05f40;
    margin: 75px auto;
+}
+
+.hr-secondary {
+   max-width: 50px;
+   border: 1px solid #f9c10f;
+   margin: 0 auto;
 }
