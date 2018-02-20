@@ -166,6 +166,12 @@ footer {
    margin-top: 1.2em;
 }
 
+/* .error custom styling */
+.error {
+   font-size: 1.4em;
+   color: #f05f40;
+}
+
 /* custom horizontal line styling */
 .hr-primary {
    max-width: 50px;
