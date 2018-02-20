@@ -29,5 +29,11 @@ Flight Reservation Points System
   
 ##### Switching Between Branches  
 `git checkout [branch name]`  
-  
+
+##### Pushing Local Branch Update to Remote    
+`git push origin [branch name]`  
+
+##### Fetching Updates from Remote  
+`git fetch [branch name]`
+
 #
