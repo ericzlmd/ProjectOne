@@ -19,9 +19,9 @@ Flight Reservation Points System
   
   **dev** - Development branch. All production code that will be produced/used/implemented are going to be on this branch.    
 
-  **test** - Testing branch. Form validation, entry and exit point checking, javascript functions, spellcheck, grammar, styling, etc. are all going to be tested on this branch. **NO CODE SHALL PASS FROM TEST->MASTER WITHOUT THOROUGH TESTING.**
+  **test** - Testing branch. Form validation, entry and exit point checking, javascript functions, spellcheck, grammar, styling, etc. are all going to be tested on this branch, and will determine release candidates. **NO CODE SHALL PASS FROM TEST->MASTER WITHOUT THOROUGH TESTING.**
     
-  **master** - Fully functioning, production branch. Code that passes from test branch will be mergeg onto master branch as one whole product.  
+  **master** - Passed release candidate. Merged from `test` branch to `master`. Fully functioning, productdion code. :)  
 
 `DEV -> TEST -> MASTER`  
     
