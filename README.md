@@ -21,7 +21,7 @@ Flight Reservation Points System
 
   **test** - Testing branch. Form validation, entry and exit point checking, javascript functions, spellcheck, grammar, styling, etc. are all going to be tested on this branch, and will determine release candidates. **NO CODE SHALL PASS FROM TEST->MASTER WITHOUT THOROUGH TESTING.**
     
-  **master** - Passed release candidate. Merged from `test` branch to `master`. Fully functioning, productdion code. :)  
+  **master** - Passed release candidate. Merged from `test` branch to `master`. Fully functioning, production code. :)  
 
 `DEV -> TEST -> MASTER`  
     
