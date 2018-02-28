@@ -124,6 +124,16 @@ footer {
    width: 28%;
 }
 
+.flight-section {
+   background: #1a3547;
+   border-radius: 5px;
+   display: flex;
+   flex-direction: column;
+   margin: 2rem auto;
+   padding: 10px 2rem;
+   width: 50%;
+}
+
 .form-lbl {
    font-size: 1.4em;
    color: #f2f2f2f2;
