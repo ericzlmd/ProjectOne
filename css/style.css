@@ -132,6 +132,7 @@ footer {
    margin: 2rem auto;
    padding: 10px 2rem;
    width: 50%;
+   cursor: pointer;
 }
 
 .form-lbl {
