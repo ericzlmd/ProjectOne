@@ -59,7 +59,7 @@ function populate(){
 
 function getDestination(i){
 	
-	var num = Math.floor(Math.random()*20) + 1;
+	var num = Math.floor(Math.random()*20) + 0;
 	var destination = document.getElementById("destination"+i);
 	
 	var cities = [	"Toronto, Canada", "New York, United States", "Lisbon, Portugal", "Venice, Italy", "Cairo, Egypt", 
