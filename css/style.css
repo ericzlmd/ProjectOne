@@ -5,8 +5,6 @@
    box-sizing: border-box;
 }
 
-
-
 body {
    font-family: "Open Sans";
    font-size: 17px;
@@ -59,25 +57,9 @@ header {
    box-shadow: -7px -3px rgba(0, 0, 0, 0.6);
 }
 
-.members {
-   display: flex;
-   flex-wrap: wrap;
-   margin: 4em;
-   align-items: baseline;
+.main {
+   height: 100vh;
 }
-
-.card {
-   text-decoration: none;
-   background: #1a3547;
-   margin: 15px 15px;
-   width: 30%;
-   padding: 11px;
-   list-style: none;
-} 
-.card h3 {
-   text-align: center;
-}
-
 
 footer {
    background: #333333;
@@ -129,7 +111,7 @@ footer {
    border-radius: 5px;
    display: flex;
    flex-direction: column;
-   margin: 2rem auto;
+   margin: 11rem auto;
    padding: 10px 2rem;
    width: 50%;
    cursor: pointer;
@@ -178,6 +160,28 @@ footer {
    align-self: center;
    margin-top: 1.2em;
 }
+
+
+/* Card members */
+.members {
+   display: flex;
+   flex-wrap: wrap;
+   margin: 4em;
+   align-items: baseline;
+}
+
+.card {
+   text-decoration: none;
+   background: #1a3547;
+   margin: 15px 15px;
+   width: 30%;
+   padding: 11px;
+   list-style: none;
+} 
+.card h3 {
+   text-align: center;
+}
+
 
 /* .error custom styling */
 .error {
