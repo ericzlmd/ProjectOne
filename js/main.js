@@ -1,7 +1,7 @@
 // validation if main.js is working
-window.onload = function() {
-  alert("This is main.js ~ hi!");
-}
+// window.onload = function() {
+//   alert("This is main.js ~ hi!");
+// }
 
 $(document).ready(function() {
   $(".error").hide();
