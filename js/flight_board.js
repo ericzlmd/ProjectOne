@@ -30,7 +30,7 @@ function goToBooking(i){
 	var time = document.getElementById("time"+i).innerHTML;
 	var cost = document.getElementById("points"+i).innerHTML;
 	
-	var  confirm_window = confirm("Confirmation\n\nDesination:"+ dest + "\nDate:" + date + "\nTime:" + time + "\nCost:" + cost);
+	var  confirm_window = confirm("Confirmation\n\n"+ dest + "\n" + date + "\n" + time + "\n" + cost);
 	
 	
 	//this block of code would send to server for flight_confirmation to fetch
@@ -69,7 +69,7 @@ function getDestination(i){
 					"Tokyo, Japan", "Sao Paulo, Brazil", ];
 	
 	
-	destination.innerHTML = ""+cities[num];
+	destination.innerHTML = "Destination: "+cities[num];
 			
 	
 	
@@ -84,7 +84,7 @@ function getDate(i){
 	var year = Math.floor(Math.random()*3) + 18;
 	
 
-	date.innerHTML = "" + month + "/" + day + "/20" + year; 
+	date.innerHTML = "Departure Date: " + month + "/" + day + "/20" + year; 
 		
 	
 }
@@ -95,7 +95,7 @@ function getTime(i){
 	
 	var hour = Math.floor(Math.random()*23) + 1;
 	
-	time.innerHTML = "" + hour + ":00";
+	time.innerHTML = "Departure Time: " + hour + ":00";
 	
 }
 
@@ -106,5 +106,5 @@ function getPoints(i){
 	
 	var cost = Math.round(x/100)*100;
 	
-	points.innerHTML = "" + cost + " pts";
+	points.innerHTML = "Cost: " + cost + " pts";
 }
