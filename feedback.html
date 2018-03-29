@@ -29,8 +29,17 @@
          <label for="email" class="form-lbl">Email:</label>
          <input type="email" name="email" class="feedback-item" id="email" placeholder="your@email.here">
          <label for="email" class="error" id="fb-email-error">This field is required!</label>
-
-         <label for="feedback" class="form-lbl">Tell us what we can improve:</label>
+		 
+		 <label for="radiofeed" class="form-lbl">What was the greatest feature of our service?</label>
+         <input type="radio" name="radiofeed" value="1" /> Appearance
+		 <input type="radio" name="radiofeed" value="2" /> Points
+		 <input type="radio" name="radiofeed" value="3" /> 
+		 <input type="radio" name="radiofeed" value="4" /> 
+		 <input type="radio" name="radiofeed" value="5" /> 
+		 <label for="radiofeed" class="error" id="fb-radiofeed-error">This field is required!</label>
+		 
+		 
+         <label for="feedback" class="form-lbl">Please specify:</label>
          <textarea name="feedback" id="fb-textarea" cols="30" rows="7"></textarea>
          <label for="feedback" class="error" id="fb-textarea-error">This field is required!</label>
 
