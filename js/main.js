@@ -171,6 +171,13 @@ function validatePassword(password) {
       $("input#email").focus();
       return false;
     }
+	
+	// radiofeed
+	var radiof = $("#radiofeed").val();
+    if(radiof == "") {
+      $("label#fb-radiofeed-error").show();
+	  return false;
+	}
 
     // textarea
     var txtarea = $("#fb-textarea").val();
@@ -179,6 +186,8 @@ function validatePassword(password) {
       $("input#fb-textarea").focus();
       return false;
     }
+	
+	
   });
 });
 
