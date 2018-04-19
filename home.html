@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <!-- JQuery -->
+   <script src="./js/jquery.js"></script>
+   <!-- Google Fonts Open Sans & Raleway -->
+   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+   <!-- Main CSS | style.css -->
+   <link rel="stylesheet" href="./css/style.css">
+   <!-- Main JS | main.js -->
+   <script src="./js/main.js"></script>
+   <title>Charter | Flight Reservation Points System</title>
+
+    <script>
+        $(function(){  
+            var i = 0;
+            var images = ['cover1.jpg','cover2.jpg', 'cover3.jpg'];
+            var image = $('.header');
+            image.css('background-image', 'url(./bgs/cover1.jpg)');
+            setInterval(function(){  
+                image.fadeOut(1000, function () {
+                    image.css('background-image', 'url(./bgs/' + images[i] +')');
+                    image.fadeIn(1000);
+                });
+                if(i == (images.length - 1)){
+                    i = 0; 
+                } else {
+                    i++;
+                }
+            }, 5000);
+        })
+    </script>
+</head>
+<body>
+
+    <!-- navbar -->
+    <nav>
+        <div class="main-nav">
+           <a class="nav-link nav-brand" href="index.html">Charter &COPY</a>
+           <a class="nav-link nav-item" href="login.html">Login</a>
+           <a class="nav-link nav-item" href="register.html">Register</a>
+        </div>
+    </nav>
+
+    <!-- landing page -->
+    <header class="header">
+        <div id="header-content">
+            <h1>Charter</h1>
+            <a href="login.html" class="button">Book Now!</a>
+        </div>
+    </header>
+
+
+    <footer class="main-nav">
+        <span class="nav-link">&COPY; Charter Inc.</span>
+        <a href="about.html" class="nav-link">About Us</a>
+        <a href="feedback.html" class="nav-link">Feedback</a>
+        <a href="https://github.com/ericzlmd/ProjectOne" class="nav-link">Github</a>
+    </footer>
+
+</body>
+</html>

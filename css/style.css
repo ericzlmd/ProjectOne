@@ -12,8 +12,8 @@ body {
    line-height: 1.6;
 }
 
-header {
-   background: url('../images/plane.jpeg');
+.header {
+   background: url('../images/plane.jpg');
    background-size: cover;
    background-position: center;
    height: 100vh;
