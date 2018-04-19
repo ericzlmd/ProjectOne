@@ -186,6 +186,8 @@ function validatePassword(password) {
       $("input#fb-textarea").focus();
       return false;
     }
+	
+	
   });
 });
 

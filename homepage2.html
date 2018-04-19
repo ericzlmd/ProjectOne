@@ -12,9 +12,21 @@
    <link rel="stylesheet" href="./css/style.css">
    <!-- Main JS | main.js -->
    <script src="./js/main.js"></script>
+   <script>
+	$(function(){
+		$('.fadein img:gt(0)').hide();
+		setInterval(function(){
+		$('.fadein :first-child').fadeOut()
+         .next('img').fadeIn()
+         .end().appendTo('.fadein');}, 
+		5000);
+	});
+	</script>
+   
    <title>Charter | Flight Reservation Points System</title>
 </head>
-<body>
+<body onload="alertPts()">
+	
    <!-- navbar -->
    <nav>
       <div class="main-nav">
@@ -23,26 +35,18 @@
          <a class="nav-link nav-item" href="register.html">Register</a>
       </div>
    </nav>
+   
+	<div class="fadein">
+			<img src="./images/airport1.jpg" style="width:100%">
+			<img src="./images/airport2.jpg" style="width:100%">
+			<img src="./images/airport3.jpg" style="width:100%">
+	</div>
+	<br>
+
 
    <section>
-      <form action="" class="feedback-form" method="POST">
-         <label for="email" class="form-lbl">Email:</label>
-         <input type="email" name="email" class="feedback-item" id="email" placeholder="your@email.here">
-         <label for="email" class="error" id="fb-email-error">This field is required!</label>
-		 
-		 <label for="radiofeed" class="form-lbl">Would you like to receive newsletters?</label>
-         <div class="radio-container">
-		 <input type="radio" name="radiofeed" value="yes" checked="checked" /> Yes
-		 <input type="radio" name="radiofeed" value="no" /> No
-		 </div>
-		 
-		 
-         <label for="feedback" class="form-lbl">Any comments:</label>
-         <textarea name="feedback" id="fb-textarea" cols="30" rows="7"></textarea>
-         <label for="feedback" class="error" id="fb-textarea-error">This field is required!</label>
-
-         <a href="thankyou.html" class="btn-submit" id="feedback-btn">Submit</a>
-      </form>
+	
+		
    </section>
 
    <hr class="hr-primary">
@@ -56,4 +60,9 @@
    </footer>
 
 </body>
+	<script>
+		function alertPts() {
+		alert("Welcome! Congratulations, you have been awarded with 10,000pts!");
+		}
+	</script>
 </html>
