@@ -25,6 +25,24 @@ body {
    flex-direction: column;
 }
 
+#product-info {
+    display: flex;
+    flex-direction: row;
+    color: #222222;
+}
+
+#product-info h1 {
+    font-size: 64px;
+    margin-top: 10rem;
+}
+
+#product-info-caption {
+    font-size: 37px;
+    margin-top: 7rem;
+    text-align: center;
+    color: #252730;
+}
+
 #header-content h1 { 
    font-size: 64px;
    margin-top: 4rem;
